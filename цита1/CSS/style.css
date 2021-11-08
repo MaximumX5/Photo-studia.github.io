@@ -1,0 +1,1215 @@
+html, body {   
+      height: 210%;
+}
+.cop {
+    margin: 0; 
+    background: #efefef;
+} 
+.copt0 {
+    margin: 0;
+    background-color:black;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+}
+#check-menu {
+    display: none;
+}
+.p1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    position: absolute;
+    left: 100px;
+    font-size: 250%;
+    color: aliceblue;
+}
+.nav1 {
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.sl1 {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.sl1:hover {
+    color: #80bc97;
+    text-decoration: none;
+}
+.block0 {
+    margin: 0;
+    width: 600px;
+    height: 150px;   
+    position: absolute;
+    top: 120px;
+    left: 430px;
+}
+.str1 {
+    font-family: 'Dancing Script', cursive; 
+    font-weight: 400;
+    position: absolute;
+    left: 100px;
+}
+.str2 {
+    margin: 0;
+    position: absolute;
+    top: 70px;
+}
+.f00 {
+    margin: 0;
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+}
+.f0 {
+    margin: 0;
+    position: absolute; 
+    top: 300px;
+    width: 224px;
+    height: 200px; 
+}
+.f1 {
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 224px;
+    width: 224px;
+    height: 200px;  
+}
+.f2 {
+    margin: 0;
+    position: absolute; 
+    top: 300px;
+    left: 448px;
+    width: 224px;
+    height: 200px;   
+}
+.f3 {
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 672px;
+    width: 224px;
+    height: 200px;    
+}
+.f4 {
+    margin: 0;
+    position: absolute; 
+    top: 300px;
+    left: 896px;
+    width: 224px;
+    height: 200px;   
+}
+.f5 {
+    margin: 0;
+    position: absolute;  
+    top: 300px;
+    left: 1120px;
+    width: 224px;
+    height: 200px;  
+}
+.f6 {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    width: 224px;
+    height: 200px;  
+}
+.f7 {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left: 224px;
+    width: 224px;
+    height: 200px;   
+}
+.f8 {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left: 448px;
+    width: 224px;
+    height: 200px; 
+}
+.f9 {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left: 672px;
+    width: 224px;
+    height: 200px;   
+}
+.f10 {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left: 896px;
+    width: 224px;
+    height: 200px;   
+}
+.f11 {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left: 1120px;
+    width: 224px;
+    height: 200px;   
+}
+.block1 {
+        margin: 0;
+        position: absolute;
+        top: 730px;
+        left: 200px;
+        width: 500px;
+        height: 30px;
+    }
+.str3 {
+        position: absolute;
+        top: 3px;
+        left: 15px;
+        font-size: 190%;
+        color: black;
+    }
+.block2 {
+    margin: 0;
+    width: 674.5px;
+    height: 450px;
+    position: absolute;
+    top: 850px;
+    left: 0px;
+    overflow: hidden;   
+}
+.block3 {
+    margin: 0;
+    width: 674.5px;
+    height: 450px;
+    position: absolute;
+    top: 850px;
+    left: 674.5px;  
+    overflow: hidden; 
+}
+.slides {
+    width: 674.5px;
+    height: 450px;
+    display: flex;   
+}
+.slides input {
+    display: none;   
+}
+.slide {
+    width: 100%;
+    transition: 2s;  
+}
+.navigation {
+ position: absolute;
+    width:674.5px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;  
+}
+.manual-btn {
+    border: 2px solid #b5a484;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;  
+}
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background: #b5a484;
+}
+
+#r1:checked ~ .first {
+    margin-left: 0;
+    
+}
+#r2:checked ~ .first {
+    margin-left: -100%;
+    
+}
+#r3:checked ~ .first {
+    margin-left: -200%;
+    
+}
+#r4:checked ~ .first {
+    margin-left: -300%;
+    
+}
+
+#r5:checked ~ .second {
+    margin-left: 0;
+    
+}
+#r6:checked ~ .second {
+    margin-left: -100%;
+    
+}
+#r7:checked ~ .second {
+    margin-left: -200%;
+    
+}
+#r8:checked ~ .second {
+    margin-left: -300%;
+    
+}
+.block4 {
+    margin: 0;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 1400px;
+    left: 150px;  
+    box-shadow: 2px 4px 5px #000;
+}
+.block6 {
+    margin: 0;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    overflow: hidden;
+}
+.block5 {
+    margin: 0;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 20px;
+    left: 40px;  
+}
+.t1 {
+    font-family: Segoe Script;
+    font-size: 14px;
+}
+.slidesz {
+    width: 300px;
+    height: 400px;
+    display: flex;
+}
+.slidesz input {
+    display: none;   
+}
+.z {
+    width: 100%;
+    transition: 2s;
+}
+.navig {
+ position: absolute;
+    width:300px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.zanual-btn {
+    border: 2px solid #a1a29f;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;  
+}
+.zanual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+.zanual-btn:hover {
+    background: #a1a29f;
+}
+#z1:checked ~ .third {
+    margin-left: 0;   
+}
+#z2:checked ~ .third {
+    margin-left: -100%;   
+}
+#z3:checked ~ .third {
+    margin-left: -200%;   
+}
+#z4:checked ~ .third {
+    margin-left: -300%;   
+}
+#z5:checked ~ .third {
+    margin-left: -400%    
+}
+.block7 {
+    margin: 0;
+    position: absolute;
+    top: 2000px;
+    left: 150px;
+    width: 140px;
+    height: 140px;    
+}
+.tx1 {
+    margin: 0;
+    font-size: 25px;
+    position: absolute;
+    left: -10px;    
+}
+.copt5 {
+     margin: 0;
+   background-image: url(img/23.png);
+    background-position:center;
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50% ;    
+}
+.block8{
+     margin: 0;
+    position: absolute;
+    top: 2000px;
+    left: 450px;
+    width: 140px;
+    height: 140px;    
+}
+.copt6 {
+    margin: 0;
+    background-image: url(img/24.jpg);
+    background-position:center;
+    width: 120px;
+    height: 120px;  
+    border-radius: 50% ; 
+}
+.block9 {
+     margin: 0;
+    position: absolute;
+    top: 2000px;
+    left: 750px;
+    width: 140px;
+    height: 140px;   
+}
+.copt7 {
+    margin: 0;
+   background-image: url(img/24.png);
+    background-position:center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50% ; 
+}
+.block10 {
+     margin: 0;
+    position: absolute;
+    top: 2000px;
+    left: 1050px;
+    width: 140px;
+    height: 140px;
+}
+.copt8 {
+    margin: 0;
+    background-image: url(img/25.png);
+    background-position:center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50% ; 
+}
+.block11 {
+    margin: 0;
+    position: absolute;
+    top: 430%;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.table1 {
+    margin: 0;
+    position: absolute;
+    top: 2250px;
+    left: 50px;
+    font-family: Times New Roman;
+    font-size: 18px;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+th, td:first-child {
+    font-weight: bold;
+    background-color: black;
+    padding: 15px 25px;
+    color: #fff;  
+}
+td {
+    background-color: #ccc;
+}
+td, th {
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    border-color: white;  
+}
+.table2 {
+   margin: 0;
+    position: absolute;
+    top: 2250px;
+    left: 700px;
+    font-family: Times New Roman;
+    font-size: 18px;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.str4 {
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 250%;
+}
+.str5 {
+    margin: 0;
+    width: 500px;
+    height: 130px;
+    position: absolute;
+    top: 10px;
+    right: 70px;  
+}
+.str6 {
+    color: aliceblue;
+    font-size: 150%;
+}
+.n1 {
+    text-decoration: none;
+    color: aliceblue;   
+}
+
+@media screen and (max-width: 900px) {
+    .sl1 {
+        font-size: 13px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+        
+    }
+    .p1 {
+        position: absolute;
+        top: 1px;
+        left: 20px;
+        font-size: 130%;
+    }
+    .copt0 {
+        width: 768px;
+        height: 50px;
+    }
+    .nav1{
+        margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    }
+    
+    .block0 {
+        margin: 0;
+        width: 600px;
+        height: 150px;   
+        position: absolute;
+        top: 70px;
+        left: 180px;
+    }
+    .str1 {
+        font-size: 130%;
+    }
+    .str2 {
+        font-size: 100%;
+    }
+    .f00 {
+        margin: 0;
+        width: 768px;
+        height: 200px;
+        position: absolute;
+        top: 200px;
+    }
+    .f0 {
+        margin: 0;
+        position: absolute; 
+        top: 185px;
+        left: 0;
+        width: 128px;
+        height: 110px; 
+    }
+    .f1 {
+        margin: 0;
+        position: absolute;
+        top: 185px;
+        left: 128px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f2 {
+        margin: 0;
+        position: absolute;
+        top: 185px;
+        left: 256px;
+        width: 128px;
+        height: 131px; 
+    }
+    .f3 {
+        margin: 0;
+        position: absolute; 
+        top: 185px;
+        left: 384px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f4 {
+        margin: 0;
+        position: absolute; 
+        top: 185px;
+        left: 512px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f5 {
+        margin: 0;
+        position: absolute; 
+        top: 185px;
+        left: 640px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f6 {
+        margin: 0;
+        position: absolute;  
+        left: 0;
+        top: 295px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f7 {
+        margin: 0;
+        position: absolute;  
+        left: 128px;
+        top: 295px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f8 {
+        margin: 0;
+        position: absolute;  
+        left: 256px;
+        top: 295px;
+        width: 128px;
+        height: 131px; 
+    }
+    .f9 {
+        margin: 0;
+        position: absolute;  
+        left: 384px;
+        top: 295px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f10 {
+        margin: 0;
+        position: absolute;  
+        left: 512px;
+        top: 295px;
+        width: 128px;
+        height: 110px;
+    }
+    .f11 {
+        margin: 0;
+        position: absolute;  
+        left: 640px;
+        top: 295px;
+        width: 128px;
+        height: 110px; 
+    }
+    .block1 {
+        margin: 0;
+        position: absolute;
+        top: 420px;
+        left: 150px;
+        width: 500px;
+        height: 30px;
+    }
+    .str3 {
+        position: absolute;
+        top: 3px;
+        left: 15px;
+        font-size: 150%;
+        color: black;
+    }
+    .block2 {
+        margin: 0;
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        top: 500px;
+        left: 30px;
+        overflow: hidden;   
+    }
+    .block3 {
+       margin: 0;
+       width: 350px;
+       height: 300px;
+       position: absolute;
+       top: 500px;
+       left: 390px;  
+       overflow: hidden; 
+    }
+    .slides {
+       width: 350px;
+       height: 300px;
+       display: flex;   
+    }
+    .navigation {
+       position: absolute;
+       width:350px;
+       margin-top: -40px;
+       display: flex;
+       justify-content: center;  
+    }
+    .block4 {
+       margin: 0;
+       width: 710px;
+       height: 450px;
+       position: absolute;
+       top: 850px;
+       left: 30px;  
+       box-shadow: 2px 4px 5px #000;
+    }
+    .block6 {
+    margin: 0;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    overflow: hidden;
+    }
+    .slidesz {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    }
+    .navig {
+ position: absolute;
+    width:200px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    }
+    .block5 {
+    margin: 0;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 20px;
+    left: 30px;  
+}
+.t1 {
+    font-family: Segoe Script;
+    font-size: 12px;
+    }
+.block7 {
+    margin: 0;
+    position: absolute;
+    top: 1350px;
+    left: 50px;
+    width: 110px;
+    height: 110px;    
+}
+.tx1 {
+    margin: 0;
+    font-size: 15px;
+    position: absolute;
+    left: 30px;    
+}
+.copt5 {
+     margin: 0;
+   background-image: url(img/23.png);
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    border-radius: 50% ;    
+}
+.block8{
+    margin: 0;
+    position: absolute;
+    top: 1350px;
+    left: 230px;
+    width: 110px;
+    height: 110px;    
+}
+.copt6 {
+    margin: 0;
+    background-image: url(img/24.jpg);
+    background-position:center;
+   width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 40px;
+    border-radius: 50% ; 
+}
+.block9 {
+    margin: 0;
+    position: absolute;
+    top: 1350px;
+    left: 400px;
+    width: 110px;
+    height: 110px; 
+}
+.copt7 {
+    margin: 0;
+   background-image: url(img/24.png);
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 40px;
+    border-radius: 50% ;
+}
+.block10 {
+    margin: 0;
+    position: absolute;
+    top: 1350px;
+    left: 570px;
+    width: 110px;
+    height: 110px; 
+}
+.copt8 {
+    margin: 0;
+    background-image: url(img/25.png);
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 40px;
+    border-radius: 50% ;
+    }
+    .table1 {
+    margin: 0;
+    position: absolute;
+    top: 1550px;
+    left: 130px;
+    font-family: Times New Roman;
+    font-size: 17.2px;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .table2 {
+    margin: 0;
+    position: absolute;
+    top: 1850px;
+    left: 130px;
+    font-family: Times New Roman;
+    font-size: 17px;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .block11 {
+    margin: 0;
+    position: absolute;
+    top: 2300px;
+    width: 767px;
+    height: 120px;
+    background-color: black;
+    }
+    .str4 {
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 150%;
+}
+.str5 {
+    margin: 0;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    right: -25px;  
+}
+.str6 {
+    color: aliceblue;
+    font-size: 100%;
+}
+}
+@media screen and (max-width: 400px) {
+    .sl1 {
+        font-size: 14px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    }
+    .p1 {
+        position: absolute;
+        top: 1px;
+        left: 20px;
+        font-size: 170%;
+    }
+    .copt0 {
+        width: 767px;
+        height: 80px;
+        position: relative;
+        
+    }
+    .nav1{
+        margin: 0;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    }
+    .block0 {
+        margin: 0;
+        width: 600px;
+        height: 150px;   
+        position: absolute;
+        top: 120px;
+        left: 170px;
+    }
+    .str1 {
+        font-size: 180%;
+    }
+    .str2 {
+        font-size: 110%;
+    }
+    .f00 {
+        margin: 0;
+        width: 768px;
+        height: 200px;
+        position: absolute;
+        top: 200px;
+    }
+    .f0 {
+        margin: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 128px;
+        height: 110px; 
+    }
+    .f1 {
+        margin: 0;
+        position: absolute;
+        top: 190px;
+        left: 0;
+        width: 128px;
+        height: 110px; 
+    }
+    .f2 {
+        margin: 0;
+        position: absolute;
+        top: 300px;
+        left: 0;
+        width: 128px;
+        height: 110px; 
+    }
+    .f3 {
+        margin: 0;
+        position: absolute;
+        top: 300px;
+        left: 128px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f4 {
+        margin: 0;
+        position: absolute; 
+        top: 300px;
+        left: 256px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f5 {
+        margin: 0;
+        position: absolute; 
+        top: 300px;
+        left: 384px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f6 {
+        margin: 0;
+        position: absolute; 
+        top: 300px;
+        left: 512px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f7 {
+        margin: 0;
+        position: absolute;  
+        left: 640px;
+        top: 300px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f8 {
+        margin: 0;
+        position: absolute;  
+        left: 640px;
+        top: 190px;
+        width: 128px;
+        height: 131px; 
+    }
+    .f9 {
+        margin: 0;
+        position: absolute;  
+        left: 640px;
+        top: 80px;
+        width: 128px;
+        height: 110px; 
+    }
+    .f10 {
+        margin: 0;
+        position: absolute;  
+        left: 128px;
+        top: 80px;
+        width: 0;
+        height: 0;
+    }
+    .f11 {
+        margin: 0;
+        position: absolute;  
+        left: 512px;
+        top: 80px;
+        width: 0;
+        height: 0; 
+    }
+    .block1 {
+        margin: 0;
+        position: absolute;
+        top: 420px;
+        left: 230px;
+        width: 500px;
+        height: 30px;
+    }
+    .str3 {
+        position: absolute;
+        top: 3px;
+        left: 15px;
+        font-size: 150%;
+        color: black;
+    }
+    .block2 {
+        margin: 0;
+        width: 700px;
+        height: 600px;
+        position: absolute;
+        top: 500px;
+        left: 30px;
+        overflow: hidden;   
+    }
+    .block3 {
+       margin: 0;
+       width: 700px;
+       height: 600px;
+       position: absolute;
+       top: 1050px;
+       left: 30px;  
+       overflow: hidden; 
+    }
+    .slides {
+       width: 700px;
+       height: 500px;
+       display: flex;   
+    }
+    .navigation {
+       position: absolute;
+       width:700px;
+       margin-top: -40px;
+       display: flex;
+       justify-content: center;  
+    }
+    .block4 {
+       margin: 0;
+       width: 710px;
+       height: 1450px;
+       position: absolute;
+       top: 1600px;
+       left: 30px;  
+       box-shadow: 2px 4px 5px #000;
+    }
+    .block6 {
+    margin: 0;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 850px;
+    right: 170px;
+    overflow: hidden;
+    }
+    .slidesz {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    }
+    .navig {
+ position: absolute;
+    width:400px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    }
+    .block5 {
+    margin: 0;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 20px;
+    left: 30px;  
+}
+.t1 {
+    font-family: Segoe Script;
+    font-size: 20px;
+    }
+.block7 {
+    margin: 0;
+    position: absolute;
+    top: 3250px;
+    left: 70px;
+    width: 120px;
+    height: 120px;    
+}
+.tx1 {
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;    
+}
+.copt5 {
+     margin: 0;
+   background-image: url(img/23.png);
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    border-radius: 50% ;    
+}
+.block8{
+    margin: 0;
+    position: absolute;
+    top: 3100px;
+    left: 230px;
+    width: 120px;
+    height: 120px;    
+}
+.copt6 {
+    margin: 0;
+    background-image: url(img/24.jpg);
+    background-position:center;
+   width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 40px;
+    border-radius: 50% ; 
+}
+.block9 {
+    margin: 0;
+    position: absolute;
+    top: 3250px;
+    left: 420px;
+    width: 120px;
+    height: 120px; 
+}
+.copt7 {
+    margin: 0;
+   background-image: url(img/24.png);
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 40px;
+    border-radius: 50% ;
+}
+.block10 {
+    margin: 0;
+    position: absolute;
+    top: 3100px;
+    left: 570px;
+    width: 120px;
+    height: 120px; 
+}
+.copt8 {
+    margin: 0;
+    background-image: url(img/25.png);
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 40px;
+    border-radius: 50% ;
+    }
+    .table1 {
+    margin: 0;
+    position: absolute;
+    top: 3450px;
+    left: 100px;
+    font-family: Times New Roman;
+    font-size: 22px;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .table2 {
+    margin: 0;
+    position: absolute;
+    top: 3830px;
+    left: 100px;
+    font-family: Times New Roman;
+    font-size: 25px;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .block11 {
+    margin: 0;
+    position: absolute;
+    top: 4400px;
+    width: 767px;
+    height: 150px;
+    background-color: black;
+    }
+    .str4 {
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 150%;
+}
+.str5 {
+    margin: 0;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    right: -25px;  
+}
+.str6 {
+    color: aliceblue;
+    font-size: 100%;
+}
+}
+
+
